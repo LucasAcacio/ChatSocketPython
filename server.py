@@ -2,7 +2,7 @@ import socket
 import threading
 import time
 
-HEADER = 64
+HEADER = 1048
 PORT = 8080
 SERVER = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
